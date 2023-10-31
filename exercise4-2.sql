@@ -6,7 +6,7 @@ CREATE TABLE `users` (
     `profile_img_link` VARCHAR(256) NOT NULL,
     `profile_message` VARCHAR(128) NOT NULL,
     `is_out` TINYINT(1) NOT NULL DEFAULT 0,
-    `join_date` DATETIME NOT NULL,
+    `join_date` DATETIME NOT NULL, 
     PRIMARY KEY(`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
